@@ -26,7 +26,7 @@ export default function Home() {
           <motion.h1
             initial={{ x: -1000, opacity: 0 }}
             animate={controls}
-            className="text-7xl lg:text-7xl font-semibold w-3/6 text-white mb-10 sm:text-6xl sm:w-3/4">
+            className="text-5xl w-full text-center font-semibold sm:text-6xl sm:text-left text-white mb-10 lg:text-7xl">
             Never
             <br />
             Give Up On
@@ -36,7 +36,7 @@ export default function Home() {
           <motion.div
             initial={{ x: -1000, opacity: 0 }}
             animate={controls}
-            className="two_buttons flex items-center mb-10">
+            className="two_buttons flex flex-col flex-wrap items-center mb-10 sm:flex-row">
             <Button
               type="button"
               title="learn more"
@@ -55,16 +55,16 @@ export default function Home() {
           <motion.div
             initial={{ x: -1000, opacity: 0 }}
             animate={controls}
-            className="counting_numbers flex items-center">
-            <div className="first_one mr-12 border-r-2 border-slate-300 pr-8 ">
+            className="counting_numbers flex flex-col items-center sm:flex-row">
+            <div className="flex flex-col items-center first_one mb-10 border-b-2 border-slate-300 pb-8 sm:mr-10 sm:border-r-2 pr-4 sm:border-b-0 sm:mb-0 sm:pb-0">
               <h4 className="text-white text-lg font-bold">3+</h4>
               <span className="text-gray-300 text-sm">Expert Trainers</span>
             </div>
-            <div className="second_one mr-12 border-r-2 border-slate-300 pr-8 ">
+            <div className="flex flex-col items-center second_one mb-10 border-b-2 border-slate-300 pb-8 sm:mr-10 sm:border-r-2 pr-4 sm:border-b-0 sm:mb-0 sm:pb-0">
               <h4 className="text-white text-lg font-bold">935+</h4>
               <span className="text-gray-300 text-sm">Members Joined</span>
             </div>
-            <div className="third_one">
+            <div className="flex flex-col items-center third_one mb-10 sm:mb-0">
               <h4 className="text-white text-lg font-bold">80+</h4>
               <span className="text-gray-300 text-sm">Fitness Programmes</span>
             </div>
