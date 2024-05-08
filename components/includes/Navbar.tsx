@@ -34,10 +34,10 @@ const Navbar = () => {
       </div>
 
       <Image
-        src="menu.svg"
+        src="/assets/images/menu.png"
         alt="menu"
-        width={32}
-        height={32}
+        width={28}
+        height={28}
         className="inline-block cursor-pointer lg:hidden"
       />
     </nav>

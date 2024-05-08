@@ -26,7 +26,7 @@ export default function Home() {
           <motion.h1
             initial={{ x: -1000, opacity: 0 }}
             animate={controls}
-            className="text-7xl font-semibold w-3/6 text-white mb-10">
+            className="text-7xl lg:text-7xl font-semibold w-3/6 text-white mb-10 sm:text-6xl sm:w-3/4">
             Never
             <br />
             Give Up On
